@@ -1,13 +1,13 @@
 class Dog
-  def name=(dogs_name)
+  def name=(dogs_name) #setter
     @name = dogs_name
   end 
 
-  def name
+  def name            #getter
     @name
   end 
   
-  def bark
+  def bark            #bark method
     puts "woof!"
   end
   
